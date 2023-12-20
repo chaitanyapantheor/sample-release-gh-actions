@@ -29,7 +29,7 @@ func main() {
 
 	// build application
 	node := daggerClient.Container(dagger.ContainerOpts{Platform: "linux/amd64"}).
-		From("node:16")
+		From("node:20")
 
 	c := node.
 		WithDirectory("/src", source).
