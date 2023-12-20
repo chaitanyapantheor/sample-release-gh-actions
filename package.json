@@ -1,0 +1,20 @@
+{
+  "name": "sample-release-gh-actions",
+  "version": "1.0.0",
+  "description": "This is the sample application to demonstrate the release proces using the github actions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitanyapantheor/sample-release-gh-actions.git"
+  },
+  "author": "Chaitanya Maili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaitanyapantheor/sample-release-gh-actions/issues"
+  },
+  "homepage": "https://github.com/chaitanyapantheor/sample-release-gh-actions#readme"
+}
